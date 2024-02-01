@@ -1,6 +1,6 @@
-module github.com/mh-cbon/go-bin-deb
+module github.com/tekkamanendless/go-bin-deb
 
-go 1.19
+go 1.21
 
 require (
 	github.com/mattn/go-zglob v0.0.0-20160607002833-2dbd7f37a45e

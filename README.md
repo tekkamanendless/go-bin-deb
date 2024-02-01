@@ -1,6 +1,6 @@
 # go-bin-deb
 
-[![travis Status](https://travis-ci.org/mh-cbon/go-bin-deb.svg?branch=master)](https://travis-ci.org/mh-cbon/go-bin-deb) [![Go Report Card](https://goreportcard.com/badge/github.com/mh-cbon/go-bin-deb)](https://goreportcard.com/report/github.com/mh-cbon/go-bin-deb) [![GoDoc](https://godoc.org/github.com/mh-cbon/go-bin-deb?status.svg)](http://godoc.org/github.com/mh-cbon/go-bin-deb) [![MIT License](http://img.shields.io/badge/License-MIT-yellow.svg)](../LICENSE)
+[![travis Status](https://travis-ci.org/tekkamanendless/go-bin-deb.svg?branch=master)](https://travis-ci.org/tekkamanendless/go-bin-deb) [![Go Report Card](https://goreportcard.com/badge/github.com/tekkamanendless/go-bin-deb)](https://goreportcard.com/report/github.com/tekkamanendless/go-bin-deb) [![GoDoc](https://godoc.org/github.com/tekkamanendless/go-bin-deb?status.svg)](http://godoc.org/github.com/tekkamanendless/go-bin-deb) [![MIT License](http://img.shields.io/badge/License-MIT-yellow.svg)](../LICENSE)
 
 Package go-bin-deb creates binary package for debian system
 
@@ -15,7 +15,6 @@ See [the demo](demo/).
 
 # TOC
 - [Install](#install)
-  - [Glide](#glide)
   - [linux rpm/deb repository](#linux-rpmdeb-repository)
   - [linux rpm/deb standalone package](#linux-rpmdeb-standalone-package)
 - [Requirements](#requirements)
@@ -36,34 +35,25 @@ See [the demo](demo/).
 
 # Install
 
-Check the [release page](https://github.com/mh-cbon/go-bin-deb/releases)!
-
-#### Glide
-```sh
-mkdir -p $GOPATH/src/github.com/mh-cbon/go-bin-deb
-cd $GOPATH/src/github.com/mh-cbon/go-bin-deb
-git clone https://github.com/mh-cbon/go-bin-deb.git .
-glide install
-go install
-```
+Check the [release page](https://github.com/tekkamanendless/go-bin-deb/releases)!
 
 #### linux rpm/deb repository
 ```sh
 wget -O - https://raw.githubusercontent.com/mh-cbon/latest/master/bintray.sh \
-| GH=mh-cbon/go-bin-deb sh -xe
+| GH=tekkamanendless/go-bin-deb sh -xe
 # or
 curl -L https://raw.githubusercontent.com/mh-cbon/latest/master/bintray.sh \
-| GH=mh-cbon/go-bin-deb sh -xe
+| GH=tekkamanendless/go-bin-deb sh -xe
 ```
 
 #### linux rpm/deb standalone package
 ```sh
 curl -L https://raw.githubusercontent.com/mh-cbon/latest/master/install.sh \
-| GH=mh-cbon/go-bin-deb sh -xe
+| GH=tekkamanendless/go-bin-deb sh -xe
 # or
 wget -q -O - --no-check-certificate \
 https://raw.githubusercontent.com/mh-cbon/latest/master/install.sh \
-| GH=mh-cbon/go-bin-deb sh -xe
+| GH=tekkamanendless/go-bin-deb sh -xe
 ```
 
 # Requirements
@@ -222,11 +212,11 @@ before_deploy:
   - mkdir -p build/{386,amd64}
   - GOOS=linux GOARCH=386 go build --ldflags "-X main.VERSION=${TRAVIS_TAG}" -o build/386/$MYAPP main.go
   - GOOS=linux GOARCH=amd64 go build --ldflags "-X main.VERSION=${TRAVIS_TAG}" -o build/amd64/$MYAPP main.go
-  - curl -L https://raw.githubusercontent.com/mh-cbon/go-bin-deb/master/create-pkg.sh | GH=YOUR_USERNAME/$MYAPP sh -xe
+  - curl -L https://raw.githubusercontent.com/tekkamanendless/go-bin-deb/master/create-pkg.sh | GH=YOUR_USERNAME/$MYAPP sh -xe
 
 # build the package repo on gh-pages
 after_deploy:
-  - curl -L https://raw.githubusercontent.com/mh-cbon/go-bin-deb/master/setup-repository.sh | GH=YOUR_USERNAME/$MYAPP EMAIL=$MYEMAIL sh -xe
+  - curl -L https://raw.githubusercontent.com/tekkamanendless/go-bin-deb/master/setup-repository.sh | GH=YOUR_USERNAME/$MYAPP EMAIL=$MYEMAIL sh -xe
 
 # deploy package files into gh releases
 deploy:

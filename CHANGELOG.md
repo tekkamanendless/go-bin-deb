@@ -14,7 +14,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Thu 24 Aug 2017 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.19-beta...0.0.19#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.19-beta...0.0.19#diff)
 ______________
 
 ### 0.0.19-beta
@@ -30,7 +30,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Thu 20 Apr 2017 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.18...0.0.19-beta#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.18...0.0.19-beta#diff)
 ______________
 
 ### 0.0.18
@@ -46,7 +46,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Tue 18 Apr 2017 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.17...0.0.18#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.17...0.0.18#diff)
 ______________
 
 ### 0.0.17
@@ -62,7 +62,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Tue 18 Apr 2017 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.16...0.0.17#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.16...0.0.17#diff)
 ______________
 
 ### 0.0.16
@@ -83,7 +83,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Sat 30 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.15...0.0.16#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.15...0.0.16#diff)
 ______________
 
 ### 0.0.15
@@ -104,7 +104,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Mon 11 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.14...0.0.15#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.14...0.0.15#diff)
 ______________
 
 ### 0.0.14
@@ -118,7 +118,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Mon 11 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.13...0.0.14#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.13...0.0.14#diff)
 ______________
 
 ### 0.0.13
@@ -162,7 +162,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Mon 11 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.12...0.0.13#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.12...0.0.13#diff)
 ______________
 
 ### 0.0.12
@@ -176,7 +176,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Mon 11 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.11...0.0.12#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.11...0.0.12#diff)
 ______________
 
 ### 0.0.11
@@ -190,7 +190,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Mon 11 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.10...0.0.11#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.10...0.0.11#diff)
 ______________
 
 ### 0.0.10
@@ -204,7 +204,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Mon 11 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.9...0.0.10#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.9...0.0.10#diff)
 ______________
 
 ### 0.0.9
@@ -218,7 +218,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Mon 11 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.8...0.0.9#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.8...0.0.9#diff)
 ______________
 
 ### 0.0.8
@@ -232,7 +232,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Mon 11 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.7...0.0.8#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.7...0.0.8#diff)
 ______________
 
 ### 0.0.7
@@ -246,7 +246,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Mon 11 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.6...0.0.7#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.6...0.0.7#diff)
 ______________
 
 ### 0.0.6
@@ -260,7 +260,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Mon 11 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.5...0.0.6#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.5...0.0.6#diff)
 ______________
 
 ### 0.0.5
@@ -274,7 +274,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Mon 11 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.4...0.0.5#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.4...0.0.5#diff)
 ______________
 
 ### 0.0.4
@@ -288,7 +288,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Mon 11 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.3...0.0.4#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.3...0.0.4#diff)
 ______________
 
 ### 0.0.3
@@ -302,7 +302,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Mon 11 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.2...0.0.3#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.2...0.0.3#diff)
 ______________
 
 ### 0.0.2
@@ -317,7 +317,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Mon 11 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/0.0.1...0.0.2#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/0.0.1...0.0.2#diff)
 ______________
 
 ### 0.0.1
@@ -331,7 +331,7 @@ __Contributors__
 - mh-cbon
 
 Released by mh-cbon, Mon 11 Jul 2016 -
-[see the diff](https://github.com/mh-cbon/go-bin-deb/compare/aa86544bec0aab4238f0b216369545c0a3bcdcfe...0.0.1#diff)
+[see the diff](https://github.com/tekkamanendless/go-bin-deb/compare/aa86544bec0aab4238f0b216369545c0a3bcdcfe...0.0.1#diff)
 ______________
 
 

@@ -34,7 +34,7 @@ func CreatePackage(reposlug, ghToken, email, version, archs, outbuild string, pu
 	}
 
 	if tryexec(`go-bin-deb -v`) != nil {
-		exec(`latest -repo=%v`, "mh-cbon/go-bin-deb")
+		exec(`latest -repo=%v`, "tekkamanendless/go-bin-deb")
 	}
 
 	dir, err := ioutil.TempDir("", "go-bin-deb")

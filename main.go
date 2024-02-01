@@ -7,8 +7,8 @@ import (
 	"os/exec"
 	"path/filepath"
 
-	"github.com/mh-cbon/go-bin-deb/debian"
 	"github.com/mh-cbon/verbose"
+	"github.com/tekkamanendless/go-bin-deb/debian"
 	"github.com/urfave/cli"
 )
 

@@ -2,7 +2,7 @@
 set -e
 set -x
 sudo apt-get install build-essential lintian -y
-# wget -q -O - --no-check-certificate https://raw.githubusercontent.com/mh-cbon/latest/master/install.sh | GH=mh-cbon/go-bin-deb sh -xe
+# wget -q -O - --no-check-certificate https://raw.githubusercontent.com/mh-cbon/latest/master/install.sh | GH=tekkamanendless/go-bin-deb sh -xe
 # generate packages
 cd /vagrant/ && VERBOSE=* ./go-bin-deb generate -a 386 --version 0.0.1 -w pkg-build/386/ -o hello-386.deb
 cd /vagrant/ && VERBOSE=* ./go-bin-deb generate -a amd64 --version 0.0.1 -w pkg-build/amd64/ -o hello-amd64.deb

@@ -17,16 +17,16 @@ vagrant up
 
 vagrant rsync && vagrant ssh -c "export GH_TOKEN=$GH_TOKEN; sh /vagrant/vagrant-run.sh"
 
-vagrant ssh -c 'curl -L https://raw.githubusercontent.com/mh-cbon/latest/master/install.sh | GH=mh-cbon/go-bin-deb sh -xe'
+vagrant ssh -c 'curl -L https://raw.githubusercontent.com/mh-cbon/latest/master/install.sh | GH=tekkamanendless/go-bin-deb sh -xe'
 vagrant ssh -c 'go-bin-deb -v'
 vagrant ssh -c 'which go-bin-deb'
 vagrant ssh -c 'sudo apt-get remove go-bin-deb -y'
-vagrant ssh -c 'curl -L https://raw.githubusercontent.com/mh-cbon/latest/master/source.sh | GH=mh-cbon/go-bin-deb sh -xe'
+vagrant ssh -c 'curl -L https://raw.githubusercontent.com/mh-cbon/latest/master/source.sh | GH=tekkamanendless/go-bin-deb sh -xe'
 vagrant ssh -c 'go-bin-deb -v'
 vagrant ssh -c 'which go-bin-deb'
 vagrant ssh -c 'sudo apt-get remove go-bin-deb -y'
 
-vagrant rsync && vagrant ssh -c 'GH=mh-cbon/go-bin-deb sh /vagrant/ppa-add.sh'
+vagrant rsync && vagrant ssh -c 'GH=tekkamanendless/go-bin-deb sh /vagrant/ppa-add.sh'
 vagrant rsync && vagrant ssh -c 'sudo apt-cache showpkg go-bin-deb'
 vagrant rsync && vagrant ssh -c 'sudo apt-cache showpkg go-bin-rpm'
 vagrant rsync && vagrant ssh -c 'sudo apt-get remove go-bin-deb -y'
@@ -44,4 +44,4 @@ vagrant destroy -f
 # See also
 
 https://askubuntu.com/a/138327/544699
-https://github.com/mh-cbon/go-bin-deb#recipes
+https://github.com/tekkamanendless/go-bin-deb#recipes

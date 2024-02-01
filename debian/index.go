@@ -14,8 +14,8 @@ import (
 	"strings"
 
 	"github.com/mattn/go-zglob"
-	"github.com/mh-cbon/go-bin-deb/stringexec"
 	"github.com/mh-cbon/verbose"
+	"github.com/tekkamanendless/go-bin-deb/stringexec"
 )
 
 var logger = verbose.Auto()
@@ -557,7 +557,7 @@ func (d *Package) ComputeSize(sourceDir string) (int64, error) {
 	if err != nil {
 		return size, err
 	}
-	return int64(math.Ceil( float64(size) / 1024)), nil
+	return int64(math.Ceil(float64(size) / 1024)), nil
 }
 
 // WriteControlFile writes the control file.

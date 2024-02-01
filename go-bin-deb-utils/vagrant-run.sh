@@ -94,7 +94,7 @@ echo ""
 echo "# =================================================="
 echo "# =================================================="
 set -x
-go-bin-deb-utils setup-ppa -out="${PPABUILD_DIR}" -push -repo=$REPO -repos="mh-cbon/go-bin-deb,mh-cbon/go-bin-rpm"
+go-bin-deb-utils setup-ppa -out="${PPABUILD_DIR}" -push -repo=$REPO -repos="tekkamanendless/go-bin-deb,mh-cbon/go-bin-rpm"
 
 set +x
 echo ""
